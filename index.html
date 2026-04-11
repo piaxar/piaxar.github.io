@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Иван & Полина | 1 октября 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">И&nbsp;&amp;&nbsp;П</a>
+            <button class="nav-toggle" aria-label="Menu" id="nav-toggle">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#schedule">Расписание</a></li>
+                <li><a href="#venue">Место</a></li>
+                <li><a href="#transfer">Трансфер</a></li>
+                <li><a href="#dresscode">Дресс-код</a></li>
+                <li><a href="#gifts">Подарки</a></li>
+                <li><a href="#rsvp">Анкета</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Мы женимся! <span class="en">We're getting married!</span></p>
+            <h1 class="hero-names">Иван <span class="amp">&amp;</span> Полина</h1>
+            <div class="hero-date">
+                <span class="hero-date-main">1 октября 2026</span>
+                <span class="en">October 1, 2026</span>
+            </div>
+            <div class="hero-location">Барселона, Испания <span class="en">Barcelona, Spain</span></div>
+            <div class="hero-divider">
+                <svg viewBox="0 0 120 20" class="leaf-divider"><path d="M60 0 C55 8, 40 12, 20 10 C30 14, 50 16, 60 20 C70 16, 90 14, 100 10 C80 12, 65 8, 60 0Z" fill="currentColor"/></svg>
+            </div>
+        </div>
+        <a href="#schedule" class="scroll-hint" aria-label="Scroll down">
+            <svg viewBox="0 0 24 24" width="32" height="32"><path d="M12 4v14m0 0l-6-6m6 6l6-6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+        </a>
+    </section>
+
+    <!-- Photo -->
+    <section class="photo-section">
+        <div class="container">
+            <div class="photo-frame">
+                <div class="photo-placeholder" id="couple-photo">
+                    <!-- Replace this div with <img src="photo.jpg" alt="Иван и Полина"> -->
+                    <svg viewBox="0 0 200 200" width="120" height="120"><circle cx="100" cy="70" r="35" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="80" cy="70" r="35" fill="none" stroke="currentColor" stroke-width="2"/><path d="M30 180 C30 130, 70 110, 90 110 C110 110, 150 130, 150 180" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                    <p>Наше фото<br><span class="en">Our photo</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule -->
+    <section class="section" id="schedule">
+        <div class="container">
+            <h2 class="section-title">Расписание дня <span class="en">Schedule</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-time">15:00</div>
+                    <div class="timeline-content">
+                        <h3>Сбор гостей</h3>
+                        <p class="en">Guest arrival</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">15:30</div>
+                    <div class="timeline-content">
+                        <h3>Церемония + фото с гостями</h3>
+                        <p class="en">Ceremony + photos with guests</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">16:30</div>
+                    <div class="timeline-content">
+                        <h3>Аперитив</h3>
+                        <p class="en">Aperitif (1.5 hours)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">18:00</div>
+                    <div class="timeline-content">
+                        <h3>Банкет</h3>
+                        <p class="en">Dinner banquet</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">20:30</div>
+                    <div class="timeline-content">
+                        <h3>Праздничный торт</h3>
+                        <p class="en">Wedding cake</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">21:00</div>
+                    <div class="timeline-content">
+                        <h3>Дискотека + Open bar</h3>
+                        <p class="en">Dance floor + Open bar (2 hours)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">23:00</div>
+                    <div class="timeline-content">
+                        <h3>Завершение торжества и трансфер</h3>
+                        <p class="en">End of celebration &amp; transfer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue -->
+    <section class="section section--alt" id="venue">
+        <div class="container">
+            <h2 class="section-title">Место проведения <span class="en">Venue</span></h2>
+            <div class="venue-card">
+                <div class="venue-info">
+                    <h3 class="venue-name">La Mer | Finca Casaments</h3>
+                    <p class="venue-address">
+                        Camí de Santa Elena, 30<br>
+                        08349 Cabrera de Mar, Barcelona
+                    </p>
+                    <a href="https://maps.app.goo.gl/vn2U8A3PCpEDRH1S8" target="_blank" rel="noopener" class="btn">
+                        <svg viewBox="0 0 24 24" width="18" height="18" style="vertical-align: middle; margin-right: 6px;"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" fill="currentColor"/></svg>
+                        Открыть карту <span class="en">Open map</span>
+                    </a>
+                </div>
+                <div class="venue-map">
+                    <iframe
+                        src="https://maps.google.com/maps?q=La+Mer+Finca+Casaments+Cabrera+de+Mar,+Cam%C3%AD+de+Santa+Elena+30,+08349+Cabrera+de+Mar&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        width="100%"
+                        height="300"
+                        style="border:0; border-radius: 12px;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transfer -->
+    <section class="section" id="transfer">
+        <div class="container">
+            <h2 class="section-title">Трансфер <span class="en">Transfer</span></h2>
+            <div class="info-card">
+                <div class="info-card-icon">
+                    <svg viewBox="0 0 24 24" width="48" height="48"><path d="M4 16c0 .88.39 1.67 1 2.22V20c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h8v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1.78c.61-.55 1-1.34 1-2.22V6c0-3.5-3.58-4-8-4s-8 .5-8 4v10zm3.5 1c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm9 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm1.5-6H6V6h12v5z" fill="currentColor"/></svg>
+                </div>
+                <p>Информация о трансфере будет обновлена позже.</p>
+                <p class="en">Transfer details will be updated soon.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dress Code -->
+    <section class="section section--alt" id="dresscode">
+        <div class="container">
+            <h2 class="section-title">Дресс-код <span class="en">Dress Code</span></h2>
+            <div class="dresscode-grid">
+                <div class="dresscode-card">
+                    <div class="dresscode-icon">
+                        <svg viewBox="0 0 24 24" width="56" height="56"><path d="M12 2C9.24 2 7 4.24 7 7c0 1.64.8 3.09 2.03 4L7 22h10l-2.03-11C16.2 10.09 17 8.64 17 7c0-2.76-2.24-5-5-5z" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M9 13h6M9.5 16h5M10 19h4" stroke="currentColor" stroke-width="0.8"/></svg>
+                    </div>
+                    <h3>Для девушек <span class="en">For ladies</span></h3>
+                    <p>Однотонные платья в пастельных тонах</p>
+                    <p class="en">Solid-color dresses in pastel shades</p>
+                    <div class="color-palette">
+                        <span class="color-swatch" style="background: #e2dacc;" title="Cream"></span>
+                        <span class="color-swatch" style="background: #c8baa6;" title="Tan"></span>
+                        <span class="color-swatch" style="background: #c0d0bd;" title="Light sage"></span>
+                        <span class="color-swatch" style="background: #8a9e78;" title="Sage"></span>
+                        <span class="color-swatch" style="background: #a68b70;" title="Brown"></span>
+                    </div>
+                </div>
+                <div class="dresscode-card">
+                    <div class="dresscode-icon">
+                        <svg viewBox="0 0 24 24" width="56" height="56"><path d="M12 2l-3 5h-1l-1 15h10l-1-15h-1l-3-5z" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M9 7l3-2 3 2" fill="none" stroke="currentColor" stroke-width="0.8"/><path d="M11 7v15M13 7v15" stroke="currentColor" stroke-width="0.4"/></svg>
+                    </div>
+                    <h3>Для мужчин <span class="en">For gentlemen</span></h3>
+                    <p>Smart casual</p>
+                    <p class="en">Smart casual attire</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gifts -->
+    <section class="section" id="gifts">
+        <div class="container">
+            <h2 class="section-title">Подарки <span class="en">Gifts</span></h2>
+            <div class="info-card">
+                <div class="info-card-icon">
+                    <svg viewBox="0 0 24 24" width="48" height="48"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="currentColor"/><text x="12" y="16" text-anchor="middle" font-size="10" font-weight="500" fill="currentColor" font-family="serif">&euro;</text></svg>
+                </div>
+                <p>Лучший подарок для нас — это ваше присутствие!</p>
+                <p>Если вы хотите сделать подарок, мы будем рады наличным в евро.</p>
+                <p>Больше ничего не нужно.</p>
+                <br>
+                <p class="en">Your presence is the best gift!</p>
+                <p class="en">If you'd like to give a gift, we'd appreciate cash in euros.</p>
+                <p class="en">No other gifts needed, please.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section section--alt" id="rsvp">
+        <div class="container">
+            <h2 class="section-title">Анкета <span class="en">RSVP</span></h2>
+            <div class="info-card rsvp-card">
+                <div class="info-card-icon">
+                    <svg viewBox="0 0 24 24" width="48" height="48"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zM8 13h8v2H8v-2zm0 4h5v2H8v-2z" fill="currentColor"/></svg>
+                </div>
+                <p>Пожалуйста, заполните анкету, чтобы мы могли всё подготовить.</p>
+                <p class="en">Please fill out the form so we can prepare everything.</p>
+                <br>
+                <a href="#" class="btn btn--large" onclick="alert('Анкета пока не готова / The form is not ready yet'); return false;">
+                    Заполнить анкету <span class="en">Fill out the form</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-leaf">
+                <svg viewBox="0 0 120 40" width="80"><path d="M60 0 C50 15, 25 25, 0 20 C20 30, 45 35, 60 40 C75 35, 100 30, 120 20 C95 25, 70 15, 60 0Z" fill="currentColor"/></svg>
+            </div>
+            <p class="footer-names">Иван & Полина</p>
+            <p class="footer-date">01.10.2026</p>
+            <p class="footer-love">С любовью ждём вас! <span class="en">We can't wait to see you!</span></p>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('nav--scrolled', window.scrollY > 50);
+        });
+
+        // Mobile menu toggle
+        const toggle = document.getElementById('nav-toggle');
+        const links = document.getElementById('nav-links');
+        toggle.addEventListener('click', () => {
+            links.classList.toggle('nav-links--open');
+            toggle.classList.toggle('nav-toggle--open');
+        });
+
+        // Close mobile menu on link click
+        links.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                links.classList.remove('nav-links--open');
+                toggle.classList.remove('nav-toggle--open');
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Fade-in on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.timeline-item, .info-card, .dresscode-card, .venue-card, .photo-frame').forEach(el => {
+            el.classList.add('fade-in');
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
