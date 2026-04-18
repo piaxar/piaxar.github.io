@@ -53,9 +53,9 @@ body {
 /* English text */
 .en {
     display: block;
-    font-size: 0.78em;
-    color: var(--text-light);
-    margin-top: 2px;
+    font-size: 0.82em;
+    color: var(--brown-deep);
+    margin-top: 3px;
     font-style: italic;
 }
 
@@ -588,24 +588,24 @@ h3 .en, p.en, a .en {
 
 .timeline-time {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--sage-deep);
-    min-width: 60px;
+    min-width: 68px;
     padding-top: 2px;
 }
 
 .timeline-content h3 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.25rem;
-    font-weight: 500;
+    font-size: 1.35rem;
+    font-weight: 600;
     color: var(--dark);
     margin-bottom: 2px;
 }
 
 .timeline-content .en {
-    font-size: 0.8rem;
-    margin-top: 0;
+    font-size: 0.85rem;
+    margin-top: 2px;
 }
 
 /* ─── Venue ─── */
@@ -624,15 +624,15 @@ h3 .en, p.en, a .en {
 
 .venue-name {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.6rem;
+    font-size: 1.75rem;
     font-weight: 600;
     color: var(--sage-deep);
     margin-bottom: 12px;
 }
 
 .venue-address {
-    color: var(--text-light);
-    font-size: 0.92rem;
+    color: var(--text);
+    font-size: 1rem;
     line-height: 1.7;
     margin-bottom: 22px;
 }
@@ -709,8 +709,10 @@ h3 .en, p.en, a .en {
 }
 
 .info-card p {
-    font-size: 0.95rem;
+    font-size: 1.02rem;
     line-height: 1.7;
+    color: var(--text);
+    font-weight: 400;
 }
 
 /* ─── Dress Code ─── */
@@ -747,14 +749,16 @@ h3 .en, p.en, a .en {
 
 .dresscode-card h3 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.35rem;
-    font-weight: 500;
+    font-size: 1.45rem;
+    font-weight: 600;
     color: var(--sage-deep);
     margin-bottom: 12px;
 }
 
 .dresscode-card > p {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    color: var(--text);
+    font-weight: 400;
 }
 
 .palette-block {
@@ -801,8 +805,8 @@ h3 .en, p.en, a .en {
 
 .palette-note {
     margin-top: 16px;
-    font-size: 0.82rem;
-    color: var(--text-light);
+    font-size: 0.9rem;
+    color: var(--text);
     line-height: 1.55;
     max-width: 480px;
     margin-left: auto;
@@ -811,7 +815,8 @@ h3 .en, p.en, a .en {
 
 .palette-note.en {
     margin-top: 4px;
-    font-size: 0.75rem;
+    font-size: 0.82rem;
+    color: var(--brown-deep);
     font-style: italic;
 }
 
@@ -1018,16 +1023,17 @@ h3 .en, p.en, a .en {
 }
 
 .footer-love {
-    font-size: 0.88rem;
-    color: var(--tan);
-    opacity: 0.9;
+    font-size: 0.95rem;
+    color: var(--cream);
+    opacity: 1;
 }
 
 .footer-love .en {
     color: var(--tan);
-    opacity: 0.7;
+    opacity: 0.9;
     display: inline;
     margin-left: 6px;
+    font-style: italic;
 }
 
 /* ─── Animations ─── */
