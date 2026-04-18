@@ -281,21 +281,23 @@ h3 .en, p.en, a .en {
 
 .hero-subtitle {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 0.9rem;
+    font-weight: 500;
+    font-size: 1.05rem;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: var(--brown-deep);
-    margin-bottom: 18px;
+    color: var(--dark);
+    margin-bottom: 20px;
 }
 
 .hero-subtitle .en {
     display: block;
     text-transform: none;
     letter-spacing: 1px;
-    font-size: 0.85em;
-    margin-top: 4px;
-    color: var(--brown);
+    font-size: 0.82em;
+    margin-top: 6px;
+    color: var(--brown-deep);
+    font-weight: 400;
+    font-style: italic;
 }
 
 .hero-names {
@@ -323,32 +325,37 @@ h3 .en, p.en, a .en {
 
 .hero-date-main {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: var(--sage-deep);
+    font-size: 1.95rem;
+    font-weight: 600;
+    color: var(--dark);
     letter-spacing: 2px;
 }
 
 .hero-date .en {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     margin-top: 4px;
-}
-
-.hero-location {
-    font-size: 0.9rem;
-    color: var(--brown);
-    letter-spacing: 2px;
-    margin-bottom: 28px;
-    text-transform: uppercase;
+    color: var(--brown-deep);
     font-weight: 400;
 }
 
+.hero-location {
+    font-size: 1.02rem;
+    color: var(--dark);
+    letter-spacing: 2.5px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 .hero-location .en {
-    display: inline;
-    font-size: 0.85em;
+    display: block;
+    font-size: 0.78em;
     text-transform: none;
-    color: var(--text-light);
+    color: var(--brown-deep);
     letter-spacing: 0.5px;
+    margin-top: 4px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .hero-divider {
