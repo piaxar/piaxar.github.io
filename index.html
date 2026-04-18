@@ -12,6 +12,20 @@
 </head>
 <body>
 
+    <!-- RSVP Popup -->
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScr9R8cBLLhQ7tQhRgZ0g0XIFTHggwUJGr7oL6bZeMpFxo6qg/viewform" target="_blank" rel="noopener" class="rsvp-popup" id="rsvp-popup" aria-label="Fill out RSVP form">
+        <button class="rsvp-popup-close" id="rsvp-popup-close" aria-label="Close" type="button">
+            <svg viewBox="0 0 20 20" width="14" height="14"><path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+        <div class="rsvp-popup-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zM8 13h8v2H8v-2zm0 4h5v2H8v-2z" fill="currentColor"/></svg>
+        </div>
+        <div class="rsvp-popup-text">
+            <p class="rsvp-popup-title">Заполните, пожалуйста, анкету</p>
+            <p class="rsvp-popup-sub">До 15 мая</p>
+        </div>
+    </a>
+
     <!-- Navigation -->
     <nav class="nav" id="nav">
         <div class="nav-inner">
@@ -32,8 +46,15 @@
 
     <!-- Hero -->
     <section class="hero" id="hero">
+        <svg class="hero-leaf hero-leaf--tl" viewBox="0 0 200 200"><g fill="currentColor"><path d="M100 20 C70 40, 50 80, 60 140 C80 110, 95 80, 100 20Z" opacity="0.9"/><path d="M100 20 C130 40, 150 80, 140 140 C120 110, 105 80, 100 20Z" opacity="0.7"/><path d="M80 90 C60 100, 45 130, 55 170 C70 145, 78 120, 80 90Z" opacity="0.5"/></g></svg>
+        <svg class="hero-leaf hero-leaf--tr" viewBox="0 0 200 200"><g fill="currentColor"><path d="M100 20 C70 40, 50 80, 60 140 C80 110, 95 80, 100 20Z" opacity="0.9"/><path d="M100 20 C130 40, 150 80, 140 140 C120 110, 105 80, 100 20Z" opacity="0.7"/></g></svg>
+        <svg class="hero-leaf hero-leaf--bl" viewBox="0 0 200 200"><g fill="currentColor"><path d="M100 20 C70 40, 50 80, 60 140 C80 110, 95 80, 100 20Z" opacity="0.9"/><path d="M100 20 C130 40, 150 80, 140 140 C120 110, 105 80, 100 20Z" opacity="0.7"/><path d="M120 90 C140 100, 155 130, 145 170 C130 145, 122 120, 120 90Z" opacity="0.5"/></g></svg>
+        <svg class="hero-leaf hero-leaf--br" viewBox="0 0 200 200"><g fill="currentColor"><path d="M100 20 C70 40, 50 80, 60 140 C80 110, 95 80, 100 20Z" opacity="0.9"/><path d="M100 20 C130 40, 150 80, 140 140 C120 110, 105 80, 100 20Z" opacity="0.7"/></g></svg>
         <div class="hero-overlay"></div>
         <div class="hero-content">
+            <div class="hero-ornament">
+                <svg viewBox="0 0 60 24"><path d="M30 4 C26 10, 14 14, 2 12 C10 16, 22 18, 30 22 C38 18, 50 16, 58 12 C46 14, 34 10, 30 4Z" fill="currentColor"/></svg>
+            </div>
             <p class="hero-subtitle">Мы женимся! <span class="en">We're getting married!</span></p>
             <h1 class="hero-names">Иван <span class="amp">&amp;</span> Полина</h1>
             <div class="hero-date">
@@ -62,6 +83,9 @@
     <!-- Schedule -->
     <section class="section" id="schedule">
         <div class="container">
+            <div class="section-ornament">
+                <svg viewBox="0 0 28 28"><path d="M14 2 C10 8, 4 10, 2 14 C4 18, 10 20, 14 26 C18 20, 24 18, 26 14 C24 10, 18 8, 14 2Z" fill="currentColor" opacity="0.85"/></svg>
+            </div>
             <h2 class="section-title">Расписание дня <span class="en">Schedule</span></h2>
             <div class="timeline">
                 <div class="timeline-item">
@@ -120,6 +144,9 @@
     <!-- Venue -->
     <section class="section section--alt" id="venue">
         <div class="container">
+            <div class="section-ornament">
+                <svg viewBox="0 0 28 28"><path d="M14 2 C10 8, 4 10, 2 14 C4 18, 10 20, 14 26 C18 20, 24 18, 26 14 C24 10, 18 8, 14 2Z" fill="currentColor" opacity="0.85"/></svg>
+            </div>
             <h2 class="section-title">Место проведения <span class="en">Venue</span></h2>
             <div class="venue-card">
                 <div class="venue-info">
@@ -151,6 +178,9 @@
     <!-- Transfer -->
     <section class="section" id="transfer">
         <div class="container">
+            <div class="section-ornament">
+                <svg viewBox="0 0 28 28"><path d="M14 2 C10 8, 4 10, 2 14 C4 18, 10 20, 14 26 C18 20, 24 18, 26 14 C24 10, 18 8, 14 2Z" fill="currentColor" opacity="0.85"/></svg>
+            </div>
             <h2 class="section-title">Трансфер <span class="en">Transfer</span></h2>
             <div class="info-card">
                 <div class="info-card-icon">
@@ -165,6 +195,9 @@
     <!-- Dress Code -->
     <section class="section section--alt" id="dresscode">
         <div class="container">
+            <div class="section-ornament">
+                <svg viewBox="0 0 28 28"><path d="M14 2 C10 8, 4 10, 2 14 C4 18, 10 20, 14 26 C18 20, 24 18, 26 14 C24 10, 18 8, 14 2Z" fill="currentColor" opacity="0.85"/></svg>
+            </div>
             <h2 class="section-title">Дресс-код <span class="en">Dress Code</span></h2>
             <div class="dresscode-grid">
                 <div class="dresscode-card">
@@ -193,6 +226,8 @@
                     <span class="color-swatch" style="background: #8a9e78;" title="Sage"></span>
                     <span class="color-swatch" style="background: #a68b70;" title="Brown"></span>
                 </div>
+                <p class="palette-note">Это цвета нашей свадьбы — не обязательно одеваться в них, просто ориентируйтесь на настроение.</p>
+                <p class="palette-note en">These are our wedding colors — you don't need to dress in them, just use them as a mood reference.</p>
             </div>
         </div>
     </section>
@@ -200,6 +235,9 @@
     <!-- Gifts -->
     <section class="section" id="gifts">
         <div class="container">
+            <div class="section-ornament">
+                <svg viewBox="0 0 28 28"><path d="M14 2 C10 8, 4 10, 2 14 C4 18, 10 20, 14 26 C18 20, 24 18, 26 14 C24 10, 18 8, 14 2Z" fill="currentColor" opacity="0.85"/></svg>
+            </div>
             <h2 class="section-title">Подарки <span class="en">Gifts</span></h2>
             <div class="info-card">
                 <div class="info-card-icon">
@@ -219,13 +257,16 @@
     <!-- RSVP -->
     <section class="section section--alt" id="rsvp">
         <div class="container">
+            <div class="section-ornament">
+                <svg viewBox="0 0 28 28"><path d="M14 2 C10 8, 4 10, 2 14 C4 18, 10 20, 14 26 C18 20, 24 18, 26 14 C24 10, 18 8, 14 2Z" fill="currentColor" opacity="0.85"/></svg>
+            </div>
             <h2 class="section-title">Анкета <span class="en">RSVP</span></h2>
             <div class="info-card rsvp-card">
                 <div class="info-card-icon">
                     <svg viewBox="0 0 24 24" width="48" height="48"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zM8 13h8v2H8v-2zm0 4h5v2H8v-2z" fill="currentColor"/></svg>
                 </div>
-                <p>Пожалуйста, заполните анкету, чтобы мы могли всё подготовить.</p>
-                <p class="en">Please fill out the form so we can prepare everything.</p>
+                <p>Пожалуйста, заполните анкету <strong>до 15 мая</strong>, чтобы мы могли всё подготовить.</p>
+                <p class="en">Please fill out the form <strong>by May 15</strong> so we can prepare everything.</p>
                 <br>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScr9R8cBLLhQ7tQhRgZ0g0XIFTHggwUJGr7oL6bZeMpFxo6qg/viewform" target="_blank" rel="noopener" class="btn btn--large">
                     Заполнить анкету <span class="en">Fill out the form</span>
@@ -278,6 +319,23 @@
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
+        });
+
+        // RSVP popup
+        const popup = document.getElementById('rsvp-popup');
+        const popupClose = document.getElementById('rsvp-popup-close');
+        const RSVP_DISMISSED_KEY = 'rsvp-popup-dismissed';
+        if (!sessionStorage.getItem(RSVP_DISMISSED_KEY)) {
+            setTimeout(() => popup.classList.add('rsvp-popup--visible'), 1500);
+        }
+        popupClose.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            popup.classList.remove('rsvp-popup--visible');
+            sessionStorage.setItem(RSVP_DISMISSED_KEY, '1');
+        });
+        popup.addEventListener('click', () => {
+            sessionStorage.setItem(RSVP_DISMISSED_KEY, '1');
         });
 
         // Fade-in on scroll
